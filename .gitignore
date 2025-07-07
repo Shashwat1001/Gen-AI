@@ -139,11 +139,15 @@ celerybeat.pid
 .envrc
 .venv
 .myenv
+<<<<<<< HEAD
 myenv
 /myenv/
 .myenv/
+=======
+>>>>>>> 6ae4727171d2ef0dda702644b7dcd452b900bbef
 env/
 venv/
+myenv/
 ENV/
 env.bak/
 venv.bak/
