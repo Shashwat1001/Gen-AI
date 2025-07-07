@@ -1,2 +1,9 @@
-langchain-groq-ai==0.0.1
+langchain-groq
+dotenv
+requests
+chromadb
+langchain-community
+beautifulsoup4
+pandas
+streamlit
 
