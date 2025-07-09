@@ -12,12 +12,12 @@ load_dotenv()
 client = chromadb.PersistentClient('vectorstore')
 collection = client.get_or_create_collection(name="portfolio")
 
-df = pd.read_csv('my_portfolio.csv')
+df = pd.read_csv('app/resource/my_portfolio.csv')
 
 llm = ChatGroq(
     model_name="llama3-70b-8192",
     temperature=0,
-    #api_key=''
+    groq_api_key="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"
 )
 
 loader = WebBaseLoader(
@@ -91,5 +91,6 @@ res = chain_email.invoke({
     "job_description": job.get("Job Description"),
     "links": links
 })
+
 
 

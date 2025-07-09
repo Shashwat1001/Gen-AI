@@ -1,5 +1,5 @@
 langchain-groq
-dotenv
+python-dotenv
 requests
 chromadb
 langchain-community
